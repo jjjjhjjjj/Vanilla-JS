@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  width: 100px;
+  line-height: 50px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.on {
+  display: block;
+}
+
+.modal-box {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.modal-box p {
+  padding-top: 50px;
+}
+
+.dim {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+}
